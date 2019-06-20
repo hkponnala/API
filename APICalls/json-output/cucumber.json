@@ -1,0 +1,308 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "# POST with JSON"
+          }
+        ],
+        "line": 6,
+        "name": "Testing the JSON Status Code",
+        "description": "",
+        "id": "call-apis;testing-the-json-status-code",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 847991139,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user testing the JSON Status Code",
+            "match": {
+              "location": "CallAPI.user_testing_the_JSON_Status_Code()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 494385634,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user sends the JSON API request",
+            "match": {
+              "location": "CallAPI.user_sends_the_JSON_API_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7181087,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies the JSON return code",
+            "match": {
+              "location": "CallAPI.user_verifies_the_JSON_return_code()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@CallPostAPIwithJSON"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 11,
+            "value": "# GET with JSON"
+          }
+        ],
+        "line": 13,
+        "name": "Testing Get Authorization Status",
+        "description": "",
+        "id": "call-apis;testing-get-authorization-status",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7764198,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user testing the Get Authorization",
+            "match": {
+              "location": "CallAPI.user_testing_the_Get_Authorization()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51639766,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user sends the Authorization API request",
+            "match": {
+              "location": "CallAPI.user_sends_the_Authorization_API_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4560783,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user verifies the Authorization return code and values",
+            "match": {
+              "location": "CallAPI.user_verifies_the_Authorization_return_code_and_values()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@CallGetAPIwithJSON"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 18,
+            "value": "# PUT with JSON"
+          }
+        ],
+        "line": 20,
+        "name": "Testing PUT Authorization Status",
+        "description": "",
+        "id": "call-apis;testing-put-authorization-status",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10221799,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User try to update the user roles",
+            "match": {
+              "location": "CallAPI.user_try_to_update_the_user_roles()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 271973340,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User sends the imageUrl values for user login",
+            "match": {
+              "location": "CallAPI.user_sends_the_imageUrl_values_for_user_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 873814,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User receives success status code",
+            "match": {
+              "location": "CallAPI.user_receives_success_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@CallPutAPIwithJSON"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 25,
+            "value": "# POST with JSON (Create New User)"
+          }
+        ],
+        "line": 27,
+        "name": "Adding new user",
+        "description": "",
+        "id": "call-apis;adding-new-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3283059,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user creates new userid",
+            "match": {
+              "location": "CallAPI.user_creates_new_userid()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144747561,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user sends the new userid request",
+            "match": {
+              "location": "CallAPI.user_sends_the_new_userid_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 947200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user verifies the new userid return code",
+            "match": {
+              "location": "CallAPI.user_verifies_the_new_userid_return_code()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@NewUserPostAPIwithJSON"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 32,
+            "value": "# Delete with JSON (Delete User)"
+          }
+        ],
+        "line": 34,
+        "name": "Deleting user",
+        "description": "",
+        "id": "call-apis;deleting-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2761956,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user deletes userid",
+            "match": {
+              "location": "CallAPI.user_deletes_userid()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43361292,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user sends the delete request",
+            "match": {
+              "location": "CallAPI.user_sends_the_delete_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 493227,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user verifies the delete userid return code",
+            "match": {
+              "location": "CallAPI.user_verifies_the_delete_userid_return_code()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@UserDeleteAPI"
+          }
+        ]
+      }
+    ],
+    "name": "Call APIs",
+    "description": "",
+    "id": "call-apis",
+    "keyword": "Feature",
+    "uri": "Order-002/CallAPI.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@API"
+      }
+    ]
+  }
+]

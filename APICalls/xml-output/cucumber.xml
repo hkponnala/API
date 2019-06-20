@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="1.892186">
+<testcase classname="Call APIs" name="Testing the JSON Status Code" time="1.349558">
+<system-out><![CDATA[Given user testing the JSON Status Code.....................................passed
+When user sends the JSON API request........................................passed
+Then user verifies the JSON return code.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Call APIs" name="Testing Get Authorization Status" time="0.063965">
+<system-out><![CDATA[Given user testing the Get Authorization....................................passed
+When user sends the Authorization API request...............................passed
+Then user verifies the Authorization return code and values.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Call APIs" name="Testing PUT Authorization Status" time="0.283069">
+<system-out><![CDATA[Given User try to update the user roles.....................................passed
+When User sends the imageUrl values for user login..........................passed
+Then User receives success status code......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Call APIs" name="Adding new user" time="0.148978">
+<system-out><![CDATA[Given user creates new userid...............................................passed
+When user sends the new userid request......................................passed
+Then user verifies the new userid return code...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Call APIs" name="Deleting user" time="0.046616">
+<system-out><![CDATA[Given user deletes userid...................................................passed
+When user sends the delete request..........................................passed
+Then user verifies the delete userid return code............................passed
+]]></system-out>
+</testcase>
+</testsuite>
